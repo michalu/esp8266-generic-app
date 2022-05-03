@@ -9,7 +9,8 @@ Application allows to:
 - get relays, ds18b20 sensors and reeds state by a message published by this app and received  the from output queue.
 
 ## Work in progress
-Support for PIN type 'trigger' and 'reed'.
+- Support for PIN type 'trigger' and 'reed'
+- It should be possible to send some empty message to input queue and get the response about current state and read it from output queue, it will be useful in case Home Assistant is starting and needs to get current state
 
 ## Visual Studio Code extension for ESP8266
 Pymakr Preview - VSC extension is easy to use and supports uploading/downloading files and running apps.
