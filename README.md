@@ -1,7 +1,7 @@
 # esp8266-generic-app
 
 ## About application
-This is an ESP8266 generic application that connects to WIFI and supports bidirectional MQTT communication related to relays, reeds and ds18b20 sensors that are connected to this board.
+This is an ESP8266 generic micropython application that connects to WIFI and supports bidirectional MQTT communication related to relays, reeds and ds18b20 sensors that are connected to this board.
 
 Application allows to:
 - control relays (turn on, turn off) by a message send to the input queue,
