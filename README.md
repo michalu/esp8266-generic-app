@@ -19,7 +19,7 @@ Deploy new firmware:
 esptool.py --port /dev/tty.usbserial-0001 --baud 460800 write_flash --flash_size=detect 0 firmware/esp8266-1m-20220117-v1.18.bin
 ```
 
-# Running MQTT Broker as docker container
+# Running MQTT Broker as a docker container
 Mosquitto
 ```
 docker run -d --name mosquitto -p 1883:1883 eclipse-mosquitto
